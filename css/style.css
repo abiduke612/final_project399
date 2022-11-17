@@ -19,12 +19,13 @@ nav {
     padding: 20px;
 }
 
-
-
 nav li {
     display: inline;
     padding: 2px 10px 2px 10px;
+}
 
+nav a {
+    text-decoration: none;
 }
 
 footer {
