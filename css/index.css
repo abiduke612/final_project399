@@ -4,3 +4,16 @@ h1 {
     width: 20%;
     justify-content: center;
 }
+
+video {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10%;
+}
+
+.vid {
+    max-width: 80%;
+    /* margin: auto; */
+    height: 100%;
+    clip-path: inset(10% 53% 0% 0% round 25%);
+}

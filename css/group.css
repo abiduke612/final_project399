@@ -1,0 +1,11 @@
+.gallery {
+    display: flex;
+    /* flex: 2; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+img {
+    margin: 10%;
+}
