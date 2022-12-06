@@ -32,33 +32,12 @@
 
     <h1>Test your knowledge of sustainability on this short quiz!</h1>
 
-    <form>
-      <fieldset id = "part1">
-        <legend>Q1: What is ur name?</legend>
-          <label>
-            <br>
-            <input type="checkbox" name="subscribe" id="part1Checkbox">
-            Check this box to open part two of the final exam.
-        </div>
-      </fieldset>
+    <div id="quiz"></div>
+    <button id="submit">Submit</button>
+    <div id="results"></div>
 
-      <br>
 
-      <fieldset id = "part2" class="closed">
-          <legend>Part Two</legend>
-          <div>
-              <label for ="message1">Message One:</label><br>
-                  <textarea name="messageOne" id="message1"></textarea>
-               </label>
-          </div>
-          <div>
-              <label><input type="checkbox" name="repeat" id="repeat"> Same message as above</label>
-              <br>
-              <label for ="message2">Message Two:</label><br>
-                  <textarea name="messageTwo" id="message2"></textarea>
-          </div>
-      </fieldset>
-    </form>
+    <script src="js/quiz_prac.js"></script>
 
 
   </main>

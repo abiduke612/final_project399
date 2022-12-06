@@ -1,8 +1,18 @@
 main {
-    margin: 5%;
     font-size: 20px;
 }
 
-form {
-    
+.question {
+    margin-left: 50px;
+}
+
+
+.answers {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#submit {
+    margin-left: 20px;
 }
