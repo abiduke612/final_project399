@@ -1,19 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
-    background-color: aquamarine;
-    text-align: center;
-    width: 20%;
-    justify-content: center;
+    font-family: cursive;
 }
 
 video {
-    box-sizing: border-box;
+    display: inline-block;
     width: 100%;
-    margin: 10%;
+    justify-self: right;
+    margin: auto;
 }
 
 .vid {
-    max-width: 80%;
-    /* margin: auto; */
-    height: 100%;
-    clip-path: inset(10% 53% 0% 0% round 25%);
+    border-radius: 20%;
 }
+
+.video_class {
+    margin: 0px 20px 20px 20px;
+
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+.welcome {
+    color: white;
+    text-shadow: 4px 4px darkgreen;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+p {
+    color: black;
+}
+
+.info {
+    /* align-items: center; */
+    display: inline-block;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#first_p {
+    border: dotted 3px black;
+    background-color: rgb(236, 236, 247);
+    padding: 5%;
+    display: inline-block;
+    width: 50%;
+}
+
+#second_p {
+    border: dotted 3px black;
+    background-color: rgb(236, 236, 247);
+    padding: 5%;
+    display: inline-block;
+    width: 40%;
+}
+
+
+@media screen and (min-width:730px) {
+
+    
+
+}
+
+
+@media screen and (min-width:900px) {
+
+    .welcome {
+        color: white;
+        position: absolute;
+        top: 20%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+    }
+
+    .video_class {
+        margin: 0px 100px 10px 100px;
+        
+    }
+
+    #first_p {
+        width: 60%;
+        color: darkgreen;
+        background-color: transparent;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        border: none;
+        border-radius: 8%;
+    }
+
+    #second_p {
+        width: 60%;
+        color: darkgreen;
+        background-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        border: none;
+        border-radius: 8%;
+    }
+}
+
+
+@media screen and (min-width:1150px) {
+
+    #first_p {
+        font-size: 30px;
+    }
+
+    #second_p {
+        font-size: 30px;
+    }
+
+
+}
+
+

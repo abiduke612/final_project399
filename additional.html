@@ -6,7 +6,7 @@
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/html5reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/additional.css">
  <title>Simple Sustainability Solutions</title>	
 </head>	
 <body>	
@@ -15,22 +15,50 @@
 
   <header>
     <nav>
+      <img class="branches" id="smallbranch1" src="/images/branch_updated.png" alt="Small branch of green leaves">
+      <img class="branches" id="branch1" src="/images/final_branches.png" alt="Small branch of green leaves">
       <ul>
         <li> <a href = "index.html">Home</a></li>
         <li> <a href = "individual.html">Individual Solutions</a></li>
         <li> <a href = "group.html">Group Solutions</a></li>
-        <li class="active"> <a href = "additional.html">Additional Resources</a></li>
+        <li class="active"> <a href = "additional.html">Take the Quiz!</a></li>
       </ul>
+      <img class="branches" id="smallbranch2" src="/images/branch_updated.png" alt="Small branch of green leaves">
+      <img class="branches" id="branch2" src="/images/final_branches.png" alt="Small branch of green leaves">
     </nav>
   </header>
 
   <main id="skip">
 
-    <h1>Additional Resources</h1>
+    <h1>Test your knowledge of sustainability on this short quiz!</h1>
 
-    <div>
-        <img id="sustainability" src="images/sustainability.jpeg" alt="" />
-    </div>
+    <form>
+      <fieldset id = "part1">
+        <legend>Q1: What is ur name?</legend>
+          <label>
+            <br>
+            <input type="checkbox" name="subscribe" id="part1Checkbox">
+            Check this box to open part two of the final exam.
+        </div>
+      </fieldset>
+
+      <br>
+
+      <fieldset id = "part2" class="closed">
+          <legend>Part Two</legend>
+          <div>
+              <label for ="message1">Message One:</label><br>
+                  <textarea name="messageOne" id="message1"></textarea>
+               </label>
+          </div>
+          <div>
+              <label><input type="checkbox" name="repeat" id="repeat"> Same message as above</label>
+              <br>
+              <label for ="message2">Message Two:</label><br>
+                  <textarea name="messageTwo" id="message2"></textarea>
+          </div>
+      </fieldset>
+    </form>
 
 
   </main>
