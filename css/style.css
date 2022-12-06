@@ -1,7 +1,7 @@
 /* Styling across all 3 pages: Header, Footer, basic styling? */
 
 html {
-    background: url('/images/green.webp') no-repeat center center fixed; 
+    background: url('../images/green.webp') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
