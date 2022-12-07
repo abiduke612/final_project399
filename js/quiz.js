@@ -76,6 +76,7 @@
   
       // show number of correct answers out of total
       resultsContainer.innerHTML = `<br> &nbsp &nbsp &nbsp ${numCorrect} out of ${myQuestions.length}`;
+
     }
   
     const quizContainer = document.getElementById('quiz');

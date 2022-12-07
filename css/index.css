@@ -74,7 +74,8 @@ p {
 @media screen and (min-width:900px) {
 
     .welcome {
-        color: white;
+        color: black;
+        text-shadow: none;
         position: absolute;
         top: 20%;
         transform: translate(-50%, -50%);

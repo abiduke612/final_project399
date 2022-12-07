@@ -11,8 +11,18 @@ main {
     margin-top: 10px;
     margin-left: 50px;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 #submit {
     margin-left: 20px;
+}
+
+
+@media screen and (min-width:1000px) {
+    .answers {
+        flex-direction: row;
+    }
+    
 }

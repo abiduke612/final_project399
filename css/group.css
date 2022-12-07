@@ -7,7 +7,7 @@ h1 {
     text-shadow: 4px 4px white;
 }
 
-h2 {
+.htwo {
     font-size: 130%;
     width: 80%;
     margin: auto;
@@ -16,6 +16,10 @@ h2 {
     border: 1px black dashed;
     background-color: rgb(236, 236, 247);
     padding: 10px;
+}
+
+#off {
+    display: none;
 }
 
 .gallery {
@@ -57,7 +61,7 @@ h2 {
 
     .gallery {
         flex-direction: row;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
         gap: 10px;
         align-items: center;
     }
@@ -84,8 +88,13 @@ h2 {
 
 @media screen and (min-width:1000px) {
 
+    #off {
+        display: block;
+        font-weight: bold;
+    }
+
     .gallery {
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
 
     .overlay {
