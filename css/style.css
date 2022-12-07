@@ -69,7 +69,7 @@ footer {
 .resources {
     margin-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: stretch;
     justify-content: space-around;
 }
@@ -117,9 +117,13 @@ h1 {
         display: inline-block;
     }
 
+    
+
 }
 
 @media screen and (min-width:900px) {
+
+    
 
     .branches {
         display: inline-block;
@@ -150,7 +154,17 @@ h1 {
 
 }
 
+@media screen and (min-width:1000px) {
+
+    .resources {
+        flex-direction: row;
+    }
+}
+
+
 @media screen and (min-width:1100px) {
+
+    
 
     .branches {
         opacity: 0.4;
